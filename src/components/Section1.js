@@ -20,13 +20,13 @@ function Section1(props) {
 
   // Grid Breakpoint
   const responsive = { default: 3, 920: 2, 740: 1 };
+
   return (
     <div className="sections__menu section1-content">
       <Masonry 
         breakpointCols={responsive}
         className="vd-masonry-grid"
         columnClassName="vd-masonry-grid_column"
-        key={images.id}
       >
        {images}
       </Masonry>

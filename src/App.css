@@ -288,28 +288,10 @@ a {
   justify-content: space-evenly;
 }
 
-/* .section2-graph {
-  position: relative;
-  margin-top: -6rem;
-} */
-
 .section2-graph,
 .section2-form {
   flex: 0 1 40%;
 }
-
-/* .graph-title {
-  margin-bottom: 3rem;
-  font-size: 2rem;
-  color: var(--color-blue-light);
-}
-
-.graph-text {
-  color: var(--color-blue-dark-2);
-  font-size: 3.2rem;
-  font-weight: 400;
-  line-height: 1.6;
-} */
 
 .form-title {
   margin-bottom: 4rem;
@@ -455,11 +437,7 @@ a {
   .section2-content {
     flex-direction: column;
   }
-
-  /* .section2-graph {
-    margin-bottom: 5rem;
-  } */
-
+  
   .tiles {
     flex-direction: column;
   }
