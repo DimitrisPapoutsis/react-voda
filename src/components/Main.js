@@ -15,8 +15,6 @@ class Main extends Component {
       descriptionHome: "",
       imageGallery: [],
       titleServices: "",
-      graphText: [],
-      stats: [],
       fotmText: [],
       formLabels: [],
       buttonText: "",
@@ -54,8 +52,6 @@ class Main extends Component {
           descriptionHome: data[0].description,
           imageGallery: data[0].sections[0].images,
           titleServices: data[0].sections[1].title,
-          graphText: data[0].sections[1].graphText,
-          stats: data[0].sections[1].stats,
           formText: data[0].sections[1].formText,
           formLabels: data[0].sections[1].formLabels,
           buttonText: data[0].sections[1].buttonText,
@@ -85,8 +81,6 @@ class Main extends Component {
       imageGallery,
       tiles,
       titleServices,
-      graphText,
-      stats,
       formText,
       formLabels,
       buttonText
@@ -101,8 +95,6 @@ class Main extends Component {
               description={descriptionHome}
               imageGallery={imageGallery}
               titleServices={titleServices}
-              graphText={graphText}
-              stats={stats}
               formText={formText}
               formLabels={formLabels}
               buttonText={buttonText}
@@ -117,5 +109,4 @@ class Main extends Component {
     );
   }
 }
-
 export default Main;
