@@ -27,7 +27,6 @@ const customStyle = {
   }
 };
 
-//Modal.setAppElement(document.getElementById("header-search-id"));
 Modal.setAppElement('#root');
 
 class Search extends Component {
